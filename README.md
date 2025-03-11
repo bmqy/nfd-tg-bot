@@ -47,5 +47,12 @@ No Fraud / Node Forward Bot
 - 可以通过pr扩展本数据，也可以通过提issue方式补充
 - 提供额外欺诈信息时，需要提供一定的消息出处
 
+## 常见问题
+### 保存按钮禁用不可点击
+保存按钮提示：保存版本在服务`Worker`语法中不可用。请将您的`Worker`迁移到`ES`模块语法。解决方法：
+- 点击左侧`Explorer`文件图标，显示出文件列表；
+- 右键删除`package.json`命名的文件；
+- 刷新页面，即可保存；
+
 ## Thanks
 - [telegram-bot-cloudflare](https://github.com/cvzi/telegram-bot-cloudflare)
